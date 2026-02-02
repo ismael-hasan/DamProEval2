@@ -49,7 +49,7 @@ public class CancionMainAlternativa {
        Más adelante profundizaremos en esto.
      - No devuelve nada (void). Cuando llamamos a este método, no lo hacemos para obtener un resultado que podamos usar en nuestro código; lo llamamos para que
        haga una función/tarea. Por eso no necesita devolver ningún valor.
-     - Recibe como argumento/parámetro el objeto de tipo Cancion a imprimir. Así, cuando lo llamemos con la canción "c1", cancionAImprimir será c1.                                                                                                                                             
+     - Recibe como argumento/parámetro el objeto de tipo Cancion a imprimir. Así, cuando lo llamemos con la canción "c1", cancionAImprimir será c1.
      */
     private static void imprimirCancion(Cancion cancionAImprimir) {
         System.out.println("La canción " + cancionAImprimir.getTitulo() + " de " + cancionAImprimir.getArtista() + " dura " + cancionAImprimir.getDuracionEnSegundos());
