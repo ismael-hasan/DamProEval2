@@ -16,6 +16,21 @@ public class Asignatura {
         }
     }
 
+
+    public void mostrarResumen() {
+        System.out.println("La asignatura " +
+                nombre + " la da " + profesor.getNombre()
+        + " y tiene " + alumnos.length + " alumnos.");
+    }
+
+    public Profesor getProfesor() {
+        return profesor;
+    }
+
+    public void setProfesor(Profesor nuevo) {
+        this.profesor = nuevo;
+    }
+
     // Elimina a los alumnos con el id que se le pasa. Devuelve verdadero si lo ha eliminado.
     public boolean eliminarAlumno(Alumno alumno) {
         return true;
