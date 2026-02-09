@@ -1,0 +1,3 @@
+_Un carrito de la compra contiene productos. Cada producto tiene un nombre y un precio. El carrito debe permitir añadir productos y mostrar el total de la compra. Diseña las clases necesarias y programa un ejemplo funcional. **Hasta ahora hemos trabajado con arrays estáticos - definíamos un tamaño, y ya no se podía cambiar. Este ejemplo SIMULA arrays dinámicos, obligando a que cada vez que cambia el tamaño tenemos que crear un array nuevo con el tamaño adecuado y copiar el anterior**_
+
+En este ejercicio tenemos que definir un carrito de la compra que tiene productos. La dificultad estriba en que los arrays son de tamaño estático, por lo que para añadir o eliminar un elemento de un array tendremos que crear un array nuevo para sustituir el array viejo. 
