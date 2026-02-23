@@ -38,7 +38,7 @@ public class Asignatura {
     }
 
 
-    // Añade al alumno si no está ya en el curso - comprobamos si es exactamente el mismo objeto para decidir si es el mismo alumno. 
+    // Añade al alumno si no está ya en el curso - comprobamos si es exactamente el mismo objeto para decidir si es el mismo alumno.
     public boolean anhadirAlumno(Alumno alumnoNuevo) {
         for (Alumno alumno:alumnos)  {
             if (alumno == alumnoNuevo) {
@@ -93,6 +93,8 @@ public class Asignatura {
         // la última posición, la 3, para poner el nuevo alumno que nos han pasado para añadir.
         nuevaLista[nuevaLista.length-1] = alumnoNuevo;
 
+        // Reemplazamos nuestro array original por el nuevo que hemos creado, que incluye al alumnno añadido. 
+        alumnos = nuevaLista;
         return true;
     }
 
