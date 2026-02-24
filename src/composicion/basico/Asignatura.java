@@ -63,7 +63,7 @@ public class Asignatura {
         // ... por tanto, nuevaLista tiene las posiciones 0, 1 y 2 con los alumnos originales. Hemos dejado
         // la última posición, la 3, para poner el nuevo alumno que nos han pasado para añadir.
         nuevaLista[nuevaLista.length-1] = alumnoNuevo;
-
+        alumnos = nuevaLista;
         return true;
     }
 
@@ -93,7 +93,7 @@ public class Asignatura {
         // la última posición, la 3, para poner el nuevo alumno que nos han pasado para añadir.
         nuevaLista[nuevaLista.length-1] = alumnoNuevo;
 
-        // Reemplazamos nuestro array original por el nuevo que hemos creado, que incluye al alumnno añadido. 
+        // Reemplazamos nuestro array original por el nuevo que hemos creado, que incluye al alumnno añadido.
         alumnos = nuevaLista;
         return true;
     }
